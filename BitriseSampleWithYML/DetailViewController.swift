@@ -2,8 +2,8 @@
 //  DetailViewController.swift
 //  BitriseSampleWithYML
 //
-//  Created by Viktor Benei on 7/29/15.
-//  Copyright (c) 2015 Bitrise. All rights reserved.
+//  Created by Viktor Benei on 9/18/15.
+//  Copyright © 2015 Bitrise. All rights reserved.
 //
 
 import UIKit
@@ -22,7 +22,7 @@ class DetailViewController: UIViewController {
 
     func configureView() {
         // Update the user interface for the detail item.
-        if let detail: AnyObject = self.detailItem {
+        if let detail = self.detailItem {
             if let label = self.detailDescriptionLabel {
                 label.text = detail.valueForKey("timeStamp")!.description
             }

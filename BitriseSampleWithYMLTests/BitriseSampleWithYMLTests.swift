@@ -2,12 +2,12 @@
 //  BitriseSampleWithYMLTests.swift
 //  BitriseSampleWithYMLTests
 //
-//  Created by Viktor Benei on 7/29/15.
-//  Copyright (c) 2015 Bitrise. All rights reserved.
+//  Created by Viktor Benei on 9/18/15.
+//  Copyright © 2015 Bitrise. All rights reserved.
 //
 
-import UIKit
 import XCTest
+@testable import BitriseSampleWithYML
 
 class BitriseSampleWithYMLTests: XCTestCase {
     
@@ -23,12 +23,12 @@ class BitriseSampleWithYMLTests: XCTestCase {
     
     func testExample() {
         // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measureBlock() {
+        self.measureBlock {
             // Put the code you want to measure the time of here.
         }
     }

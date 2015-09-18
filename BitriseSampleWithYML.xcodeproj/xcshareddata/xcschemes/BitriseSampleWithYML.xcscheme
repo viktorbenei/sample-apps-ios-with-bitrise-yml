@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0640"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,41 +14,37 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BAE424831B6901FF00C8B00A"
+               BlueprintIdentifier = "BAD151F91BAC7F34003A2219"
                BuildableName = "BitriseSampleWithYML.app"
                BlueprintName = "BitriseSampleWithYML"
-               ReferencedContainer = "container:BitriseSampleWithYML.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BAE4249D1B6901FF00C8B00A"
-               BuildableName = "BitriseSampleWithYMLTests.xctest"
-               BlueprintName = "BitriseSampleWithYMLTests"
                ReferencedContainer = "container:BitriseSampleWithYML.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      buildConfiguration = "Debug">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BAE4249D1B6901FF00C8B00A"
+               BlueprintIdentifier = "BAD152121BAC7F34003A2219"
                BuildableName = "BitriseSampleWithYMLTests.xctest"
                BlueprintName = "BitriseSampleWithYMLTests"
+               ReferencedContainer = "container:BitriseSampleWithYML.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BAD1521D1BAC7F34003A2219"
+               BuildableName = "BitriseSampleWithYMLUITests.xctest"
+               BlueprintName = "BitriseSampleWithYMLUITests"
                ReferencedContainer = "container:BitriseSampleWithYML.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -56,27 +52,30 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BAE424831B6901FF00C8B00A"
+            BlueprintIdentifier = "BAD151F91BAC7F34003A2219"
             BuildableName = "BitriseSampleWithYML.app"
             BlueprintName = "BitriseSampleWithYML"
             ReferencedContainer = "container:BitriseSampleWithYML.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
    </TestAction>
    <LaunchAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BAE424831B6901FF00C8B00A"
+            BlueprintIdentifier = "BAD151F91BAC7F34003A2219"
             BuildableName = "BitriseSampleWithYML.app"
             BlueprintName = "BitriseSampleWithYML"
             ReferencedContainer = "container:BitriseSampleWithYML.xcodeproj">
@@ -86,16 +85,16 @@
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
+      buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BAE424831B6901FF00C8B00A"
+            BlueprintIdentifier = "BAD151F91BAC7F34003A2219"
             BuildableName = "BitriseSampleWithYML.app"
             BlueprintName = "BitriseSampleWithYML"
             ReferencedContainer = "container:BitriseSampleWithYML.xcodeproj">
