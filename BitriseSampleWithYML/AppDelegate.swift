@@ -98,7 +98,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
             NSLog("Unresolved error \(wrappedError), \(wrappedError.userInfo)")
             abort()
         }
-        
+
         return coordinator
     }()
 
@@ -127,4 +127,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
     }
 
 }
-
