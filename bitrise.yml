@@ -57,11 +57,23 @@ workflows:
     - test
     - _download_certs
     steps:
+    - set-xcode-build-number:
+        run_if: true
+        inputs:
+        - plist_path: "./BitriseSampleWithYML/Info.plist"
+        - build_version: "14"
     - xcode-archive:
         title: Run Xcode archive
         inputs:
         - project_path: ${XCODE_PROJECT_PATH}
         - scheme: ${XCODE_PROJECT_SCHEME}
+    - script:
+        inputs:
+        - content: |-
+            #!/bin/bash
+            echo "-> BITRISE_IPA_PATH: ${BITRISE_IPA_PATH}"
+            echo "-> BITRISE_DSYM_PATH: ${BITRISE_DSYM_PATH}"
+
 
   master:
     description: |-
